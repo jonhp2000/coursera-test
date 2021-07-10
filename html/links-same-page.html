@@ -3,6 +3,43 @@
 <head>
 	<meta charset="utf-8">
 	<title>Links</title>
+	<style>
+
+	h1 {
+		color: deepskyblue;
+		font-size: 36px;
+		text-align: center;
+	}
+
+	section > h3 {
+		color: blue;
+	}
+
+	section li {
+		list-style: none;
+	}
+
+	section a:link, section a:visited {
+		text-decoration: none;
+		background-color: green;
+		border: 1px solid blue;
+		color:  black;
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 1px;
+	}
+
+	section a:hover, section a:active {
+		background-color: red;
+		color: purple;
+	}
+
+	section p:hover {
+		background-color: gray;
+		cursor: pointer;
+	}
+	</style>
 </head>
 <body>
 <h1 id ="top">Physics</h1>
@@ -12,12 +49,12 @@
 		<li><a href="#history">History</a></li>
 		<li><a href="#philosophy">Philosophy</a></li>
 		<li><a href="#theories">Core theories</a></li>
-		<li><a href="#bottom">Bottom of the page</a></li>
+		<li><a class="red" href="#bottom">Bottom of the page</a></li>
 	</ul>
 </section>
 <section id="history">
 	<h3> History</h3>
-	<p> Modern physics began in the early 20th century with the work of Max Planck in quantum theory and Albert Einstein's theory of relativity. Both of these theories came about due to inaccuracies in classical mechanics in certain situations. Classical mechanics predicted a varying speed of light, which could not be resolved with the constant speed predicted by Maxwell's equations of electromagnetism; this discrepancy was corrected by Einstein's theory of special relativity, which replaced classical mechanics for fast-moving bodies and allowed for a constant speed of light.[29] Black-body radiation provided another problem for classical physics, which was corrected when Planck proposed that the excitation of material oscillators is possible only in discrete steps proportional to their frequency; this, along with the photoelectric effect and a complete theory predicting discrete energy levels of electron orbitals, led to the theory of quantum mechanics taking over from classical physics at very small scales.</p>
+	<p> Modern physics began in the early 20th century with the work of Max Planck in quantum theory and <span id="subtitle">Albert Einstein's theory of relativity</span>. Both of these theories came about due to inaccuracies in classical mechanics in certain situations. Classical mechanics predicted a varying speed of light, which could not be resolved with the constant speed predicted by Maxwell's equations of electromagnetism; this discrepancy was corrected by Einstein's theory of special relativity, which replaced classical mechanics for fast-moving bodies and allowed for a constant speed of light.[29] Black-body radiation provided another problem for classical physics, which was corrected when Planck proposed that the excitation of material oscillators is possible only in discrete steps proportional to their frequency; this, along with the photoelectric effect and a complete theory predicting discrete energy levels of electron orbitals, led to the theory of quantum mechanics taking over from classical physics at very small scales.</p>
 
 	<p>Quantum mechanics would come to be pioneered by Werner Heisenberg, Erwin Schrödinger and Paul Dirac.[30] From this early work, and work in related fields, the Standard Model of particle physics was derived.[31] Following the discovery of a particle with properties consistent with the Higgs boson at CERN in 2012,[32] all fundamental particles predicted by the standard model, and no others, appear to exist; however, physics beyond the Standard Model, with theories such as supersymmetry, is an active area of research.[33] Areas of mathematics in general are important to this field, such as the study of probabilities and groups.</p>
 </section>
